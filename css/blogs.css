@@ -1,0 +1,50 @@
+@import "global.css";
+
+img {
+    width: 80%;
+    margin: 1em auto;
+}
+
+#maina, #mainb {
+    text-decoration: none;
+    float: right;
+    font-size: 1.9em;
+    margin-bottom: 2em;
+    
+}
+
+h5 {
+    background-color: #e6eef5;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 3em 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 1.2em;
+}
+
+.mid-p {
+    margin: 4em;
+    padding: 1em;
+    border-left: 2px solid;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+@media only screen and (min-width: 1025px) {
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    #main {
+        margin: 2em 4em;
+    }
+
+   
+
+
+
+}
