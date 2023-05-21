@@ -1,0 +1,27 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #5cb9db;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    margin: 1em 0;
+    padding: 0;
+    background-color: #69c1e0;
+}
+
+
+aside h3 {
+padding-left: 10px;
+margin-top: 0.5em;
+margin-bottom: 0.1em;
+
+}
+
+
+aside ul {
+margin: 0;
+}
+
+aside i {
+font-size: 1.75em;
+}

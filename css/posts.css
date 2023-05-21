@@ -1,17 +1,20 @@
-@import "global.css";
+@import "../main.css";
+
 
 img {
     width: 80%;
     margin: 1em auto;
 }
 
+
 #maina, #mainb {
     text-decoration: none;
     float: right;
-    font-size: 1.9em;
-    margin-bottom: 2em;
+    font-size: 2em;
+    margin-bottom: 3em;
     
 }
+
 
 h5 {
     background-color: #e6eef5;
@@ -22,6 +25,7 @@ h5 {
     font-size: 1.2em;
 }
 
+
 .mid-p {
     margin: 4em;
     padding: 1em;
@@ -31,19 +35,27 @@ h5 {
     font-style: italic;
 }
 
-@media only screen and (min-width: 1025px) {
+
+@media only screen and (min-width: 768px) {
 
     nav ul {
         display: flex;
         justify-content: flex-end;
         gap: 10px;
+        padding-right: 1.5em;
     }
 
-    #main {
-        margin: 2em 4em;
+    main {
+        margin: 2em 5em;
     }
 
-   
+
+    #maina, #mainb {
+        
+        font-size: 2.5em;
+        
+        
+    }
 
 
 

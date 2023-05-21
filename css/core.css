@@ -1,5 +1,4 @@
 
-
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 html,
@@ -15,57 +14,11 @@ body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     background-color: #f0f5fa;
     color: #130d68;
-}
-
-header, footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0 0.5em;
-    background-color: #f3ece5;
-
-}
-
-h1 {
-    background-color: #f1e3d4;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding: -10em 0;
-}
-
-header {
-    padding: -10em 0;
-}
-
-input[type="search"] {
-    width: 17em;
-    height: 2em;
-    border: 1px solid #130d68;
-    border-radius: 4px;
-    padding: 10px;
-
-}
-
-input::placeholder {
-    color: #2607b3;;
+    line-height: 1.5;
 }
 
 
-ul {
-    list-style: none;
-    display: flex;
-    background-color: #69c1e0;
-    border-radius: 4px;
-    justify-content: space-evenly;
-    padding: 0 3px;
-}
 
-li {
-    padding: 8px 3px;
-    font-size: 1.3em;
-    
-}
 
 a {
     color: #130d68;
@@ -122,6 +75,7 @@ button {
     font-weight: bold;
     color: inherit;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 1em;
   
 }
 
@@ -168,31 +122,9 @@ span, figcaption, footer p, input::placeholder {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-
-aside {
-        display: flex;
-        flex-direction: column;
-        background-color: #5cb9db;
-        border-radius: 4px;
-        justify-content: space-evenly;
-        margin: 1em 0;
-        padding: 0;
-        background-color: #69c1e0;
+p span>a {
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 3px;
 }
 
-
-aside h3 {
-    padding-left: 10px;
-    margin-top: 0.5em;
-    margin-bottom: 0.1em;
-    
-}
-
-
-aside ul {
-    margin: 0;
-}
-
-aside i {
-    font-size: 1.75em;
-}
